@@ -1,0 +1,16 @@
+function Hero() {
+    return (
+        <div className="hero">
+            <div>
+                <h1 className="title">Hi, I'm Alexander Ignacio</h1>
+            </div>
+
+            <div className="messsage-container">
+                <h3 className="message">Welcome to my website</h3>
+            </div>
+        </div>
+
+    )
+}
+
+export default Hero;
