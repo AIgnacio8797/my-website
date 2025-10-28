@@ -1,19 +1,23 @@
 import './App.css'
-import image from './Images/github-logo.png'
+import gitHubLogo from './images/github-logo.png'
+import './QuickLinks.css'
+import emailLogo from './images/email_logo.png'
 
 function QuickLinks(){
     return (
         <div>
-            <div className="quick-links" style={{ display: "flex", justifyContent: "flex-end" }}>
-                <div className="git-hub" style={{ display: "flex", alignItems: "center" }}>
-                    <img src={image} alt="GitHub Logo"
-                    style={{ filter: 'invert(1)', height: '24px', width: '24px', marginRight: '18px'}} />
+            <div className="quick-links">
+                <div className="github">
+                    <img className="ghImage" src={gitHubLogo} alt="GitHub Logo"/>
                     <a href="https://github.com/AIgnacio8797" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
 
-            <div className="email">
-                
+            <div className="quick-links">
+                <div className="email">
+                    <img className="emImage" src={emailLogo} alt="Email Logo"/>
+                    <a href="alexignacio@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                </div>
             </div>
         </div>
 

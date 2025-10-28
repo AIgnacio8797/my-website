@@ -1,0 +1,19 @@
+.quick-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.ghImage {
+    height: 24px;
+    width: 24px;
+    margin-right: 18px;
+    filter: invert(1);
+}
+
+.emImage {
+    height: 25px;
+    width: 25px;
+    margin-right: 18px;
+    filter: invert(1);
+}
