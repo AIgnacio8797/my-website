@@ -2,6 +2,7 @@ import './App.css'
 import gitHubLogo from './images/github-logo.png'
 import './QuickLinks.css'
 import emailLogo from './images/email_logo.png'
+import linkedinLogo from './images/linkedin-logo.png'
 
 function QuickLinks(){
     return (
@@ -14,9 +15,9 @@ function QuickLinks(){
             </div>
 
             <div className="quick-links">
-                <div className="email">
-                    <img className="emImage" src={emailLogo} alt="Email Logo"/>
-                    <a href="alexignacio@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                <div className="linkedin">
+                    <img className="linkedinLogo" src={linkedinLogo} alt="Linkedin Logo"/>
+                    <a href="www.linkedin.com/in/alex-n-ignacio" target="_blank" rel="noopener noreferrer">Linkedin</a>
                 </div>
             </div>
         </div>
